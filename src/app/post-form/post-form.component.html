@@ -1,0 +1,12 @@
+<div class="jumbotron jumbotron-fluid" id="post-form">
+    <div class="container">
+        <h1 class="display-5 text-center">ADD POST</h1>
+
+        <div class="container px-5">
+            <input type="text" class="form-control my-2 text-white" placeholder="Enter Post ObjectID" [(ngModel)]="postID">
+            <input type="text" class="form-control my-2 text-white" placeholder="Enter Post Title" [(ngModel)]="postTitle">
+            <input type="text" class="form-control my-2 text-white" placeholder="Enter Post Description" [(ngModel)]="postDesc">
+            <button type="submit" class="btn btn-outline-danger float-right mt-1 px-5" (click)="formSubmit()">Add</button>
+        </div>
+    </div>
+</div>

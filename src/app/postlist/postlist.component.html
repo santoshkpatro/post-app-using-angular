@@ -1,0 +1,7 @@
+<app-post-form (postCreated)="postAdd($event)"></app-post-form>
+<hr>
+<div class="container">
+    <div class="row">
+        <app-post *ngFor="let postItem of posts" [element]="postItem" class="col-lg-4 mb-3"></app-post>
+    </div>
+</div>

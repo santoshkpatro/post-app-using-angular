@@ -1,0 +1,17 @@
+#post-form {
+    background-color: black;
+}
+
+.form-control {
+    background: transparent;
+    border: none;
+}
+
+h1 {
+    color: brown;
+}
+
+
+::placeholder {
+    color: brown;
+}
